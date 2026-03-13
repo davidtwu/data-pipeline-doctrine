@@ -1,0 +1,80 @@
+@use "./base.scss";
+
+// Article body — comfortable reading width and line-height
+.center > article {
+  max-width: 680px;
+}
+
+article p,
+article li,
+article td,
+article tbody {
+  line-height: 1.75;
+}
+
+// Paragraph spacing for scanability
+article p {
+  margin-bottom: 1.2em;
+}
+
+// Blockquotes — accent left border
+blockquote {
+  border-left: 3px solid var(--secondary);
+}
+
+// Code blocks — slightly lighter background with subtle border
+pre {
+  background-color: #141414 !important;
+  border: 1px solid #2a2a2a !important;
+}
+
+// Tag links as small rounded pills
+a.internal.tag-link {
+  background-color: var(--secondary);
+  color: var(--light);
+  padding: 0.15rem 0.55rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: var(--tertiary);
+    color: var(--light);
+  }
+}
+
+// Horizontal rules as subtle gradient dividers
+hr {
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--secondary),
+    transparent
+  );
+  height: 1px;
+  border: none;
+}
+
+// Mermaid diagrams — theme-compatible background
+.mermaid {
+  background: transparent !important;
+}
+
+pre:has(> code.mermaid) {
+  background: transparent !important;
+  border: none !important;
+}
+
+// Images — rounded corners and subtle shadow
+article img {
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+// Mobile responsiveness
+@media (max-width: 800px) {
+  .center > article {
+    max-width: 100%;
+  }
+}
