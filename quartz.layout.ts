@@ -19,7 +19,8 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/davidtwu",
-      RSS: "/index.xml",
+      LinkedIn: "https://www.linkedin.com/in/david-wu-711954/",
+      RSS: "./index.xml",
     },
   }),
 }

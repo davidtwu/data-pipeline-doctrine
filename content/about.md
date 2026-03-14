@@ -25,5 +25,7 @@ If something here saves you a week of debugging or helps you make a better desig
 
 ## Get in touch
 
-- [GitHub](https://github.com/your-username)
-- [LinkedIn](https://linkedin.com/in/your-profile)
+- [GitHub](https://github.com/davidtwu)
+- [LinkedIn](https://www.linkedin.com/in/david-wu-711954/)
+
+Want to know when new posts go live? Check out the [subscribe page](/subscribe) for RSS and GitHub notification options.
