@@ -53,9 +53,9 @@ Any other RSS reader will work too—just add the feed URL and you're set.
 
 If you already live in GitHub, you can skip the RSS reader entirely and use GitHub's built-in notification system. When you "watch" the repository, GitHub sends you notifications whenever new content is pushed.
 
-**Watch settings:** [github.com/davidtwu/davidtwu.github.io/notifications](https://github.com/davidtwu/davidtwu.github.io/notifications)
+**Watch settings:** [github.com/davidtwu/data-pipeline-doctrine](https://github.com/davidtwu/data-pipeline-doctrine)
 
-Or go directly to the repository at [github.com/davidtwu/davidtwu.github.io](https://github.com/davidtwu/davidtwu.github.io) and click the **Watch** button in the top right.
+Go to the repository and click the **Watch** button in the top right.
 
 ### Notification Types
 
