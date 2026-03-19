@@ -1,6 +1,7 @@
 ---
 title: "Subscribe"
 description: "How to get notified when new posts are published"
+date: 2024-01-01
 tags:
   - meta
 ---

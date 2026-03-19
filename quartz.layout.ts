@@ -20,7 +20,8 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       GitHub: "https://github.com/davidtwu",
       LinkedIn: "https://www.linkedin.com/in/david-wu-711954/",
-      RSS: "./index.xml",
+      Subscribe: "/subscribe",
+      RSS: "/index.xml",
     },
   }),
 }
