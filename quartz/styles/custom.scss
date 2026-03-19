@@ -2,30 +2,48 @@
 
 // Article body — comfortable reading width and line-height
 .center > article {
-  max-width: 680px;
+  max-width: 750px;
+
+  @media (min-width: 1200px) {
+    max-width: 750px;
+  }
+
+  @media (min-width: 800px) and (max-width: 1200px) {
+    max-width: 100%;  // Fill available space
+  }
 }
 
 article p,
 article li,
 article td,
 article tbody {
-  line-height: 1.75;
+  line-height: 1.7;
 }
 
 // Paragraph spacing for scanability
 article p {
-  margin-bottom: 1.2em;
+  margin-bottom: 1.4em;  // Clear paragraph separation
 }
 
-// Blockquotes — accent left border
+// Heading hierarchy - monotonically decreasing sizes
+article h1 { font-size: 2rem; margin-top: 2.5rem; }
+article h2 { font-size: 1.5rem; margin-top: 2rem; }
+article h3 { font-size: 1.25rem; margin-top: 1.75rem; }
+article h4 { font-size: 1.1rem; margin-top: 1.5rem; }
+
+// Blockquotes — accent left border with proper spacing
 blockquote {
   border-left: 3px solid var(--secondary);
+  margin: 1.5rem 0;
+  padding: 0.75rem 1rem;
 }
 
 // Code blocks — slightly lighter background with subtle border
 pre {
   background-color: #141414 !important;
   border: 1px solid #2a2a2a !important;
+  padding: 1rem;
+  margin: 1.5rem 0;
 }
 
 // Tag links as small rounded pills
@@ -66,15 +84,38 @@ pre:has(> code.mermaid) {
   border: none !important;
 }
 
-// Images — rounded corners and subtle shadow
+// Images — rounded corners, subtle shadow, and vertical spacing
 article img {
   border-radius: 8px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+  margin: 1.5rem 0;
 }
 
 // Mobile responsiveness
 @media (max-width: 800px) {
   .center > article {
     max-width: 100%;
+    padding: 0 1rem;
+  }
+}
+
+// Explorer sidebar — truncate long page titles with ellipsis
+.explorer-content {
+  li > a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    display: block;
+  }
+
+  // Folder name truncation
+  .folder-container div > a,
+  .folder-container div > button span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    display: block;
   }
 }

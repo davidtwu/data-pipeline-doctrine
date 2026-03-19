@@ -14,3 +14,8 @@ draft: true
 - Write a blog about the challenges of scientists developing algorithms across an ETL pipeline.
 - Automated code generation.
 - Encoding senior engineering knowledge in steering files for agents.
+
+
+## Action Items
+
+- Fix visibility of template in code section: https://davidtwu.github.io/data-pipeline-doctrine/good-strategy-bad-strategy-for-vision-docs#4-bad-strategic-objectives
