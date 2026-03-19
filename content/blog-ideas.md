@@ -4,7 +4,8 @@ draft: true
 ---
 
 ## Post Ideas
- 
+
+
 - Developing vision documents. Creating a high-level outline, gathering information on painpoints and ideas, etc. Making sure to setup meetings early enough in advance to gather data.
 - Generating excitement about initiatives. Getting feedback, and pulling them in as collaborators by incorporating feedback into documents. Reference Claude Research on this topic.
 - SDE ratios. Do we think senior SDEs will become more important? Robert Marsa seems to think so, as we know how to build code and are better at decomposing projects into tasks that can be farmed out to junior engineers.
