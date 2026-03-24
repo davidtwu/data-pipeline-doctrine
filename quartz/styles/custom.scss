@@ -38,12 +38,43 @@ blockquote {
   padding: 0.75rem 1rem;
 }
 
-// Code blocks — slightly lighter background with subtle border
+// Code blocks — improved contrast and readability
 pre {
-  background-color: #141414 !important;
-  border: 1px solid #2a2a2a !important;
+  background-color: #1a1a2e !important;
+  border: 1px solid #2d2d44 !important;
   padding: 1rem;
   margin: 1.5rem 0;
+  border-radius: 6px;
+}
+
+// Syntax highlighting contrast improvements
+pre code {
+  color: #e4e4e7 !important; // Base text color - high contrast
+}
+
+// Token color overrides for better readability
+pre code .hljs-keyword,
+pre code .hljs-selector-tag,
+pre code .hljs-built_in { color: #c792ea !important; } // Purple - keywords
+pre code .hljs-string,
+pre code .hljs-attr { color: #c3e88d !important; } // Green - strings
+pre code .hljs-number,
+pre code .hljs-literal { color: #f78c6c !important; } // Orange - numbers
+pre code .hljs-comment { color: #7c7c8a !important; } // Muted gray - comments
+pre code .hljs-function,
+pre code .hljs-title { color: #82aaff !important; } // Blue - functions
+pre code .hljs-variable,
+pre code .hljs-params { color: #f07178 !important; } // Coral - variables
+pre code .hljs-type,
+pre code .hljs-class { color: #ffcb6b !important; } // Yellow - types
+
+// Inline code styling
+:not(pre) > code {
+  background-color: #2a2a3e !important;
+  color: #e4e4e7 !important;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.9em;
 }
 
 // Tag links as small rounded pills
