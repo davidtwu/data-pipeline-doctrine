@@ -5,7 +5,8 @@ draft: true
 
 ## Post Ideas
 
-- Minimizing AI slop, and holding a higher standard. With AI nowadays, it's really easy to generate documentation. But just because you can generate this documention, it doesn't mean that you should share it with others. What were some methodologies towards minimizing AI slop?
+- Debate tactics applied to software review meetings.
+- Communication frameworks.
 - Developing vision documents. Creating a high-level outline, gathering information on painpoints and ideas, etc. Making sure to setup meetings early enough in advance to gather data.
 - Generating excitement about initiatives. Getting feedback, and pulling them in as collaborators by incorporating feedback into documents. Reference Claude Research on this topic.
 - SDE ratios. Do we think senior SDEs will become more important? Robert Marsa seems to think so, as we know how to build code and are better at decomposing projects into tasks that can be farmed out to junior engineers.
