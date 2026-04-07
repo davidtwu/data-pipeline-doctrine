@@ -5,6 +5,7 @@ draft: true
 
 ## Post Ideas
 
+- Personal Knowledge Management using Outlook MCP to manage emails.
 - Debate tactics applied to software review meetings.
 - Communication frameworks.
 - Developing vision documents. Creating a high-level outline, gathering information on painpoints and ideas, etc. Making sure to setup meetings early enough in advance to gather data.
