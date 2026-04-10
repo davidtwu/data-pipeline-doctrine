@@ -19,7 +19,7 @@ I've been experimenting with a different approach: applying Tree of Thoughts (To
 
 Tree of Thoughts comes from a [2023 paper by Yao et al.](https://arxiv.org/abs/2305.10601) that dramatically improved LLM problem-solving on tasks requiring exploration and backtracking. The key insight: instead of generating a single chain of reasoning, have the model explore multiple paths, evaluate which look promising, and prune dead ends.
 
-The numbers are striking. On the "Game of 24" puzzle (find arithmetic operations to reach 24 from four numbers), GPT-4 with standard chain-of-thought prompting solved only 4% of problems. With Tree of Thoughts using a branching factor of 5, success jumped to 74%.
+On the "Game of 24" puzzle (find arithmetic operations to reach 24 from four numbers), GPT-4 with standard chain-of-thought prompting solved only 4% of problems. With Tree of Thoughts using a branching factor of 5, success jumped to 74%.
 
 Why 5? The paper tested different branching factors and found that 5 candidates at each decision point hit a sweet spot — enough diversity to find good solutions, but not so many that evaluation becomes noisy. With 3 candidates, you often miss the best path. With more than 5, the evaluation step struggles to meaningfully differentiate options.
 

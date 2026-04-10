@@ -7,7 +7,7 @@ tags:
 description: "Progressive disclosure, token budgets, and when to split vs. merge agent skills."
 ---
 
-You've got 50 skills across 5 teams. Half of them overlap. Your token budget is bleeding out before the conversation even starts. Sound familiar?
+You've got 50 skills across 5 teams. Half of them overlap. Your token budget is bleeding out before the conversation even starts.
 
 Once you've nailed the [[agent-skill-description-formula|description formula]], the next challenge is structuring skills that compose without collision — and don't bankrupt your context window in the process.
 

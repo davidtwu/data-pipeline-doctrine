@@ -17,7 +17,7 @@ My first instinct was to hunt for bugs. Somewhere in our pipelines, something wa
 
 A coworker saw it differently. "The metrics aren't wrong," she said. "They're just not the same metric. Each team built their own aggregation from raw events, with their own filters and their own definitions of 'active.' We don't have a bug — we have three sources of truth."
 
-That reframe changed everything. We weren't debugging pipelines. We were building a semantic layer.
+That reframe changed the project. We weren't debugging pipelines. We were building a semantic layer.
 
 ## Why I missed it
 

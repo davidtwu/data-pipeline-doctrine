@@ -5,6 +5,7 @@ draft: true
 
 ## Post Ideas
 
+- Design review about points of leverage. One point of leverage with tapping into build and deployment system. Research on how to identify points of leverage in software engineering.
 - Personal Knowledge Management using Outlook MCP to manage emails.
 - Debate tactics applied to software review meetings.
 - Communication frameworks.

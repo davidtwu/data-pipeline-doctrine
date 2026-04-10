@@ -140,7 +140,7 @@ flowchart TD
 
 - **Signal:** The team needs data to make a decision, not just opinions
 - **Why you:** A PE running a quick data analysis or spike provides a level of insight no delegation can match — you know what questions to ask the data.
-- **AI's role:** AI is exceptional here — use it to write data extraction scripts, generate visualizations, and iterate on analysis. You interpret; AI computes.
+- **AI's role:** AI works well here — use it to write data extraction scripts, generate visualizations, and iterate on analysis. You interpret; AI computes.
 - **Litmus test:** Am I the only person who would know which questions to ask?
 - **Leverage tier:** Tier 3–4 (Delegation + Systems)
 
@@ -176,7 +176,7 @@ flowchart TD
 
 - **Signal:** The destination is clear; the journey is tedious
 - **Why delegate:** Large-scale codemod-style changes are the definition of high-volume, low-judgment work. AI agents can now handle multi-file refactors with supervision.
-- **AI's role:** This is AI's sweet spot. Use Claude Code or Codex for multi-file mechanical changes. You define the transformation rules; AI executes across the codebase.
+- **AI's role:** AI handles this well. Use Claude Code or Codex for multi-file mechanical changes. You define the transformation rules; AI executes across the codebase.
 - **Litmus test:** Could I describe this as a set of deterministic transformation rules?
 - **Leverage tier:** Tier 2 (Tools)
 
