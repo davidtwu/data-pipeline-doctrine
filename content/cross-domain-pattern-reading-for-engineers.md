@@ -43,13 +43,13 @@ Genrich Altshuller figured this out by analyzing over 200,000 patents. His core 
 
 Once I had the structural framing, I could name why the problem was actually hard. Not the symptoms (fragmentation, duplicated effort, integration pain) but the constraints that made it resist solution.
 
-Three stood out:
+Three stood out.
 
-**Switching costs.** Every team had invested months in their current stack. Migrating meant rewriting working code, retraining people, and accepting a temporary productivity hit. Even if the shared tooling was better, the cost of getting there was real and immediate. The benefits were diffuse and future.
+Every team had invested months in their current stack. Migrating meant rewriting working code, retraining people, and accepting a temporary productivity hit. Even if the shared tooling was better, the switching cost was real and immediate. The benefits were diffuse and future.
 
-**Incentive misalignment.** Each team was evaluated on delivering their project, not on organizational coherence. A team that paused project work to migrate to shared tooling would look slower than a team that kept shipping on their custom stack. Locally rational, globally dysfunctional.
+Then there was incentive misalignment. Each team was evaluated on delivering their project, not on organizational coherence. A team that paused project work to migrate to shared tooling would look slower than a team that kept shipping on their custom stack. Locally rational, globally dysfunctional.
 
-**Threshold dynamics.** Shared tooling adopted by one team is overhead. Adopted by four teams, it's infrastructure. The value is nonlinear, but you have to get through the low-value phase to reach the high-value phase. Nobody wants to be the first mover when the payoff requires three more movers behind you.
+The third constraint was threshold dynamics. Shared tooling adopted by one team is overhead. Adopted by four teams, it's infrastructure. The value is nonlinear, but you have to get through the low-value phase to reach the high-value phase. Nobody wants to be the first mover when the payoff requires three more movers behind you.
 
 Naming these precisely mattered because each constraint pointed toward a different body of knowledge. Switching costs are studied extensively in economics. Incentive misalignment is a core topic in game theory and organizational behavior. Threshold dynamics show up in epidemiology, network science, and the sociology of social movements.
 
@@ -87,15 +87,11 @@ The strategy doc I produced was structurally different from anything I would hav
 
 This approach isn't always the right move. If your pipeline is slow because of a bad join, profile it. If a service is throwing errors, read the logs. Domain expertise solves domain problems.
 
-Cross-domain reading pays off when the problem is structural rather than technical. A few signals:
+Cross-domain reading pays off when the problem is structural rather than technical.
 
-The problem keeps recurring despite repeated attempts to fix it. You've "solved" it before and it came back. That's a sign you're treating symptoms while the structure that generates them stays intact.
+The clearest signal is recurrence. You've "solved" the problem before and it came back. That means you're treating symptoms while the structure that generates them stays intact. Another signal: the obvious solutions have already been tried. If writing a standard and presenting it at a review was going to work, it would have worked the first time.
 
-The obvious solutions have already been tried. If writing a standard and presenting it at a review was going to work, it would have worked the first time.
-
-You find yourself saying "this isn't really a technical problem." It's a coordination problem, an adoption problem, an incentive problem. Those are structural problems, and structural problems have been studied across dozens of fields.
-
-Conflicting stakeholder opinions can't be resolved with more data. When disagreements are about assumptions rather than facts, you're dealing with paradigm-level differences. Other domains have navigated those.
+Sometimes you can feel it directly. You find yourself saying "this isn't really a technical problem." It's a coordination problem, an adoption problem, an incentive problem. Those have been studied across dozens of fields. Or you notice that conflicting stakeholder opinions can't be resolved with more data, because the disagreements are about assumptions rather than facts.
 
 Cognitive scientist Dedre Gentner's research on analogical reasoning established the test for whether a cross-domain analogy is actually useful: do the relationships between elements in the source domain mirror your domain? USB and shared tooling adoption share relational structure (switching costs, network effects, incumbent lock-in). If only the surface features match ("both involve networks!"), the analogy will mislead you.
 
